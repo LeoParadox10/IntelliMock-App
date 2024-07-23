@@ -1,36 +1,59 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# IntelliMock-App
+
+IntelliMock-App is a mock interview application built with Next.js. It allows users to add job positions and details, receive questions based on experience and tech stacks, record and answer questions, and get ratings and feedback.
+
+## Features
+
+- Add job positions and other details
+- Generate questions based on experience and tech stacks
+- Record and answer interview questions
+- Receive ratings and feedback on answers
+
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js
+- npm or yarn
+- npx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    git clone https://github.com/LeoParadox10/IntelliMock-App.git
+    cd IntelliMock-App
+    ```
 
-## Learn More
+2. **Install dependencies**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running the App
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Start the development server**
 
-## Deploy on Vercel
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    The app will be running at `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Access the database studio**
+
+    ```bash
+    npm run db:studio
+    ```
+
+## Deployment
+
+The project is deployed on Vercel. You can access it at [https://intelli-mock-app.vercel.app/](https://intelli-mock-app.vercel.app/).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
